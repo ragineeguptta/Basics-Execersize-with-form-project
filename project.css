@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 34pxpx;
+    font-family: 'Redressed', cursive;
+}
+ h2 {
+    padding-top: 30px;
+    font-size: 40px;
+}
+.container p {
+    margin-bottom: 30px;
+}
+input,textarea {
+    width: 80%;
+    margin: 11px;
+    padding: 7px;
+    font-size: 15px;
+    border: 2px solid black;
+}
+.btn {
+    color: #fff;
+    background-color: purple;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px 0;
+cursor: pointer;
+}
+.colImg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.Sbmtmsg {
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+}
